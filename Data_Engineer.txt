@@ -1,0 +1,45 @@
+Challenge 1 — INSERT
+INSERT INTO Customers(CustomerID, CustomerName, City)
+VALUES(7, 'Neha', 'Chennai');
+
+Challenge 2 — UPDATE
+UPDATE Customers
+SET City = 'Bangalore'
+WHERE CustomerID = 7;
+
+Challenge 3 — DELETE
+DELETE FROM Customers
+WHERE CustomerID = 7;
+
+Challenge 4 — Business problem
+UPDATE Orders
+SET Amount = 55000
+WHERE OrderID = 107;
+
+🎯 Challenge 5 — Think like a Data Engineer
+1st I identify how many CustomerID are missing, then why their is negative amount is present here is their any refund or not.
+----------------------------------------------
+🧪 Practice — Day 1 Part 2
+Q1. SELECT *
+FROM Orders
+WHERE OrderID = 102;
+
+Q2. UPDATE Orders
+SET Amount = 750
+WHERE OrderID = 102;
+
+Q3. SELECT *
+FROM Orders
+WHERE OrderID = 102;
+
+Q4. SELECT *
+FROM Orders
+WHERE OrderID = 106;
+
+Q5. DELETE FROM Orders
+WHERE OrderID = 106;
+
+Q6. It UPDATE all the Amount into 0 because it's not specify which one that's why this query is dangerous.
+----------------------------------------------
+
+
